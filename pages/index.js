@@ -8,6 +8,10 @@ import "@fortawesome/fontawesome-free/js/brands";
 import Hr from "../components/Hr";
 import List from "../components/List";
 import Product from "../components/Product";
+import Promotion from "../components/Promotion";
+import Testimonial from "../components/Testimonial";
+import Video from "../components/Video";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -39,42 +43,7 @@ export default function Home() {
           </Col>
         </Row>
         <Hr />
-        <Row className="mb-4">
-          <Col>
-            <h1 className="text-theme ">Testimonial</h1>
-          </Col>
-        </Row>
-        <Row classNmae="pb-5">
-          <Col xs={3}>
-            <Image src="book.jpg" fluid></Image>
-          </Col>
-          <Col className="bg-gray" xs={9}>
-            <p>Aute ut irure aliquip laborum non tempor in sint fugiat amet.</p>
-            <p className="text-center">คุณตังเมย์</p>
-          </Col>
-        </Row>
-        <Row className="mb-3">
-          <Col xs={12} md={4}>
-            <Image src="sale product-01.jpg" thumbnail />
-          </Col>
-          <Col xs={12} md={4}>
-            <Image src="sale product-01.jpg" thumbnail />
-          </Col>
-          <Col xs={12} md={4}>
-            <Image src="sale product-01.jpg" thumbnail />
-          </Col>
-        </Row>
-        <Row className="mb-4">
-          <Col xs={12} md={4}>
-            <Image src="sale product-01.jpg" thumbnail />
-          </Col>
-          <Col xs={12} md={4}>
-            <Image src="sale product-01.jpg" thumbnail />
-          </Col>
-          <Col xs={12} md={4}>
-            <Image src="sale product-01.jpg" thumbnail />
-          </Col>
-        </Row>
+        <Testimonial />
         <Hr />
         <Row className="my-4">
           <Col>
@@ -121,32 +90,9 @@ export default function Home() {
           texts="แบบฝึกหัดค้นพบตัวเองเพื่อความชัดเจนในอาชีพ"
         />
       </Container>
-      <Container fluid className={styles.bgtheme}>
-        <Row className="pt-4">
-          <Col xs={12}>
-            <h1 className="text-center text-white">Promotion</h1>
-          </Col>
-        </Row>
-        <Row className="px-3 py-3">
-          <Col xs={12} md={4}>
-            <Image src="sale product-05.jpg" fluid></Image>
-          </Col>
-          <Col xs={12} md={4}>
-            <Image src="sale product-06.jpg" fluid></Image>
-          </Col>
-          <Col xs={12} md={4}>
-            <Image src="sale product-07.jpg" fluid></Image>
-          </Col>
-        </Row>
-        <Row className="px-3 py-3">
-          <Col xs={12} md={6}>
-            <Image src="sale product-08.jpg" fluid></Image>
-          </Col>
-          <Col xs={12} md={6}>
-            <Image src="sale product-09.jpg" fluid></Image>
-          </Col>
-        </Row>
-      </Container>
+      <Promotion />
+      <Video />
+      <Footer />
     </div>
   );
 }
