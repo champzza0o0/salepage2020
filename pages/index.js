@@ -14,16 +14,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Habitscan Shop</title>
-        <link rel="icon" href="/logo.jpg" />
+        <link rel="icon" href="logo.jpg" />
       </Head>
       <Container>
         <Row>
           <Col xs={12} md={2}>
-            <Image
-              className={styles.piclogo}
-              src="/product/logo.jpg"
-              thumbnail
-            />
+            <Image className={styles.piclogo} src="logo.jpg" thumbnail />
           </Col>
           <Col xs={12} md={10}>
             <h2 className={styles.texttheme}>Habitscan.Shop</h2>
@@ -31,7 +27,7 @@ export default function Home() {
         </Row>
         <Row>
           <Col xs={12} md={12}>
-            <Image src="/cover.jpg" fluid />
+            <Image src="cover.jpg" fluid />
             <h2 className="text-center my-4">หาตัวตนที่ใช่สำหรับคุณ ?</h2>
             <h2 className="text-center my-3">Habitscan ช่วยคุณได้</h2>
             <ResponsiveEmbed aspectRatio="16by9">
@@ -50,7 +46,7 @@ export default function Home() {
         </Row>
         <Row classNmae="pb-5">
           <Col xs={3}>
-            <Image src="/product/book.jpg" fluid></Image>
+            <Image src="book.jpg" fluid></Image>
           </Col>
           <Col className="bg-gray" xs={9}>
             <p>Aute ut irure aliquip laborum non tempor in sint fugiat amet.</p>
@@ -59,24 +55,24 @@ export default function Home() {
         </Row>
         <Row className="mb-3">
           <Col xs={12} md={4}>
-            <Image src="/product/sale product-01.jpg" thumbnail />
+            <Image src="sale product-01.jpg" thumbnail />
           </Col>
           <Col xs={12} md={4}>
-            <Image src="/product/sale product-01.jpg" thumbnail />
+            <Image src="sale product-01.jpg" thumbnail />
           </Col>
           <Col xs={12} md={4}>
-            <Image src="/product/sale product-01.jpg" thumbnail />
+            <Image src="sale product-01.jpg" thumbnail />
           </Col>
         </Row>
         <Row className="mb-4">
           <Col xs={12} md={4}>
-            <Image src="/product/sale product-01.jpg" thumbnail />
+            <Image src="sale product-01.jpg" thumbnail />
           </Col>
           <Col xs={12} md={4}>
-            <Image src="/product/sale product-01.jpg" thumbnail />
+            <Image src="sale product-01.jpg" thumbnail />
           </Col>
           <Col xs={12} md={4}>
-            <Image src="/product/sale product-01.jpg" thumbnail />
+            <Image src="sale product-01.jpg" thumbnail />
           </Col>
         </Row>
         <Hr />
@@ -105,22 +101,22 @@ export default function Home() {
           </Col>
         </Row>
         <Product
-          source="/product/sale product-01.jpg"
+          source="sale product-01.jpg"
           head="HABITScan Personality type test"
           texts="แบบทดสอบบุคลิกภาพและประเมินสมรรถภาพรายบุคคล"
         />
         <Product
-          source="/product/sale product-02.jpg"
+          source="sale product-02.jpg"
           head="คู่มืออ่านใจคนขั้นเทพ HABITS BOOK"
           texts="หนังสือคู่มืออ่านใจคน"
         />
         <Product
-          source="/product/sale product-03.jpg"
+          source="sale product-03.jpg"
           head="HABITScan CARD"
           texts="การ์ดทายนิสัย"
         />
         <Product
-          source="/product/sale product-04.jpg"
+          source="sale product-04.jpg"
           head="สมุดโตแล้วไปไหน"
           texts="แบบฝึกหัดค้นพบตัวเองเพื่อความชัดเจนในอาชีพ"
         />
@@ -133,21 +129,21 @@ export default function Home() {
         </Row>
         <Row className="px-3 py-3">
           <Col xs={12} md={4}>
-            <Image src="/product/sale product-05.jpg" fluid></Image>
+            <Image src="sale product-05.jpg" fluid></Image>
           </Col>
           <Col xs={12} md={4}>
-            <Image src="/product/sale product-06.jpg" fluid></Image>
+            <Image src="sale product-06.jpg" fluid></Image>
           </Col>
           <Col xs={12} md={4}>
-            <Image src="/product/sale product-07.jpg" fluid></Image>
+            <Image src="sale product-07.jpg" fluid></Image>
           </Col>
         </Row>
         <Row className="px-3 py-3">
           <Col xs={12} md={6}>
-            <Image src="/product/sale product-08.jpg" fluid></Image>
+            <Image src="sale product-08.jpg" fluid></Image>
           </Col>
           <Col xs={12} md={6}>
-            <Image src="/product/sale product-09.jpg" fluid></Image>
+            <Image src="sale product-09.jpg" fluid></Image>
           </Col>
         </Row>
       </Container>
